@@ -42,16 +42,23 @@
 
 ## 安装
 
-```bash
-# 从源码（本仓库根目录）
-cd y42_stepper
-pip install -e .
+本项目已发布到 PyPI，推荐直接使用 pip 安装：
 
-# 或直接指向仓库路径
+```bash
+pip install y42_stepper
+```
+
+该命令会自动安装依赖（`pyserial>=3.5`）。需要 Python `>=3.8`。
+
+也可从源码或 GitHub 安装：
+
+```bash
+cd y42_stepper && pip install -e .
+# 或
 pip install git+https://github.com/xhfb/y42_stepper.git
 ```
 
-依赖：`pyserial>=3.5`，Python `>=3.8`。
+PyPI：[https://pypi.org/project/y42-stepper/](https://pypi.org/project/y42-stepper/)
 
 ### 导入
 

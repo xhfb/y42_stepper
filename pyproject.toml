@@ -31,6 +31,10 @@ dev = [
     "mypy",
 ]
 
+[project.urls]
+"Homepage" = "https://github.com/xhfb/y42_stepper"
+"Repository" = "https://github.com/xhfb/y42_stepper"
+
 [tool.setuptools.packages.find]
 include = ["y42_stepper*"]
 
