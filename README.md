@@ -6,7 +6,7 @@
 
 ## 参考文档与相关项目
 
-- 协议手册：仓库内 `docs/`（或厂商 PDF《ZDT Y42 第二代闭环步进电机使用说明 V1.1》）
+- 协议手册：[ZDT Y42 第二代闭环步进电机使用说明 V1.1](docs/ZDT%20Y42第二代闭环步进电机使用说明V1.1.pdf)
 - 架构参考：[xhfb/emm_stepper](https://github.com/xhfb/emm_stepper)（X42S / Emm-only 控制库）
 
 > **与 emm_stepper 的关系**  
